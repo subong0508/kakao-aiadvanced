@@ -5,6 +5,7 @@ anyio @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_646d
 appnope @ file:///Users/builder/ci_310/appnope_1642500616005/work
 argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
 argon2-cffi-bindings @ file:///opt/concourse/worker/volumes/live/cf502f86-3f51-4f85-686b-4867f6d672bd/volume/argon2-cffi-bindings_1644569704808/work
+arxiv==2.1.3
 asgiref==3.8.1
 asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
 async-lru @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_365oz8ukt9/croot/async-lru_1699554543402/work
@@ -36,15 +37,18 @@ dnspython==2.6.1
 email_validator==2.2.0
 exceptiongroup @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_f147j11jio/croot/exceptiongroup_1706031400682/work
 executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
+faiss-cpu==1.8.0.post1
 fastapi==0.111.1
 fastapi-cli==0.0.4
 fastjsonschema @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b5c1gee32t/croots/recipe/python-fastjsonschema_1661368622875/work
+feedparser==6.0.11
 filelock==3.15.4
 flatbuffers==24.3.25
 frozenlist==1.4.1
 fsspec==2024.6.1
 google-auth==2.32.0
 googleapis-common-protos==1.63.2
+gpt4all==2.7.0
 greenlet==3.0.3
 grpcio==1.65.1
 h11==0.14.0
@@ -62,6 +66,7 @@ ipywidgets @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs
 jedi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_dc59flyfgj/croot/jedi_1721058355050/work
 Jinja2 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_e3k_d_nbx2/croot/jinja2_1716993406587/work
 json5 @ file:///tmp/build/80754af9/json5_1624432770122/work
+jsonlines==4.0.0
 jsonpatch==1.33
 jsonpointer==3.0.0
 jsonschema @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_2dizrcxtjs/croot/jsonschema_1699041625297/work
@@ -83,9 +88,13 @@ langchain==0.2.11
 langchain-chroma==0.1.2
 langchain-community==0.2.10
 langchain-core==0.2.24
+langchain-nomic==0.1.2
 langchain-openai==0.1.19
 langchain-text-splitters==0.2.2
+langchainhub==0.1.20
+langgraph==0.1.17
 langsmith==0.1.93
+loguru==0.7.2
 markdown-it-py==3.0.0
 MarkupSafe @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3a_cffw83x/croot/markupsafe_1704205995714/work
 marshmallow==3.21.3
@@ -101,6 +110,7 @@ nbclient @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_6
 nbconvert @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_7f3ojsm7ne/croot/nbconvert_1699022748690/work
 nbformat @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_532mg9641l/croot/nbformat_1694616748613/work
 nest-asyncio @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_c44_atq5c1/croot/nest-asyncio_1708532677863/work
+nomic==3.1.1
 notebook @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_6524eko56b/croot/notebook_1719499615258/work
 notebook_shim @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_3ad004vb8r/croot/notebook-shim_1699455899066/work
 numpy==1.26.4
@@ -120,9 +130,11 @@ opentelemetry-util-http==0.47b0
 orjson==3.10.6
 overrides @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a4tzft66ma/croot/overrides_1699371143883/work
 packaging @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_af6w2d9k11/croot/packaging_1720101860461/work
+pandas==2.2.2
 pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
 parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
+pillow==10.4.0
 platformdirs @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_640usff2p5/croot/platformdirs_1692205656061/work
 ply==3.11
 posthog==3.5.0
@@ -132,12 +144,16 @@ protobuf==4.25.4
 psutil @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_c9b604bf-685f-47f6-8304-238e4e70557e1o7mmsot/croots/recipe/psutil_1656431274701/work
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
+pyarrow==17.0.0
 pyasn1==0.6.0
 pyasn1_modules==0.4.0
 pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 pydantic==2.8.2
 pydantic_core==2.20.1
 Pygments @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_cflayrfqsi/croot/pygments_1684279981084/work
+PyJWT==2.8.0
+PyMuPDF==1.24.9
+PyMuPDFb==1.24.9
 PyPika==0.48.9
 pyproject_hooks==1.1.0
 PyQt5==5.15.10
@@ -162,6 +178,7 @@ rich==13.7.1
 rpds-py @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_e9l2yxcal2/croot/rpds-py_1698945951668/work
 rsa==4.9
 Send2Trash @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_6c5du7dh0i/croot/send2trash_1699371145992/work
+sgmllib3k==1.0.0
 shellingham==1.5.4
 sip @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_6cor4uzugx/croot/sip_1698675942509/work
 six @ file:///tmp/build/80754af9/six_1644875935023/work
@@ -171,6 +188,7 @@ SQLAlchemy==2.0.31
 stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
 starlette==0.37.2
 sympy==1.13.1
+tavily-python==0.3.5
 tenacity==8.5.0
 terminado @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_18_p3gbeio/croot/terminado_1671751835656/work
 tiktoken==0.7.0
@@ -181,8 +199,10 @@ tornado @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_7e
 tqdm==4.66.4
 traitlets @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_f49losghmg/croot/traitlets_1718227069025/work
 typer==0.12.3
+types-requests==2.32.0.20240712
 typing-inspect==0.9.0
 typing_extensions @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_0b3pj9yhn2/croot/typing_extensions_1715268854415/work
+tzdata==2024.1
 urllib3 @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_65yo38szpt/croot/urllib3_1718912647798/work
 uvicorn==0.30.3
 uvloop==0.19.0
